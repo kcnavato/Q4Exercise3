@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Arithmetic Operators</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet">
+            <style type="text/css">
+            body{
+    text-align: left;
+    background-image: url(https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/34561/blackboard-clipart-md.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF ;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+.container{
+    font-size: 1.3cm;
+}
+
+th {
+    background-color:;
+}
+
+            </style>
+</head>
+<div class="container">
+<body>
+<br>
+    <h1 style="text-align:center; font-size: 60px;">JavaScript Arithmetic Operators</h1>
+    
+<table class="table" border="5">
+    <th colspan="3" style="text-align: center;">c=10 d=5</th>
+        <tr>
+            <td>Operation</td>
+            <td>Equation</td>
+            <td>Result</td>
+        </tr>
+        <tr>
+            <td>Addition</td>
+            <td>c + d = </td>
+            <td><strong id="n1"></strong></td>
+        </tr>
+        
+        <tr>
+            <td>Subtraction</td>
+            <td>d - c = </td>
+            <td><strong id="n2"></strong></td>
+        </tr>
+       
+        <tr>
+            <td>Multiplication</td>
+            <td>d * c = </td>
+            <td><strong id="n3"></strong></td>
+        </tr>
+
+        <tr>
+            <td>Division</td>
+            <td>c / d = </td>
+            <td><strong id="n4"></strong></td>
+        </tr>
+
+        <tr>
+            <td>Modulus</td>
+            <td>c % d = </td>
+            <td><strong id="n5"></strong></td>
+        </tr>
+    
+
+
+<script type="text/javascript">
+
+    let c=10, d=5
+
+    let sum = c + d
+    let diff = d - c
+    let product = d * c
+    let quotient = c / d
+    let remainder = c % d
+
+    alert("The sum of the two variables: " + sum + "\n" + "The difference of the two variables: " + diff + "\n" + "The product of the two variables: " + product + "\n" + "The quotient of the two variables: " + quotient + "\n" + "The remainder of two numbers: " + remainder);
+
+    
+    document.getElementById("n1").innerHTML = c + d;
+    document.getElementById("n2").innerHTML = d - c;
+    document.getElementById("n3").innerHTML = d * c;
+    document.getElementById("n4").innerHTML = c / d;
+    document.getElementById("n5").innerHTML = c % d;
+
+</script>
+</body>
